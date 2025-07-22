@@ -1,8 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:zimro/core/utils/app_text_styles.dart';
 
-class SignUpButton extends StatelessWidget {
-  const SignUpButton({super.key});
+class CustomButton extends StatelessWidget {
+  const CustomButton({super.key, required this.buttonName, this.onPressed});
+
+  final String buttonName;
+  final void Function()? onPressed;
 
   @override
   Widget build(BuildContext context) {
@@ -16,9 +19,9 @@ class SignUpButton extends StatelessWidget {
             borderRadius: BorderRadius.circular(14),
           ),
         ),
-        onPressed: () {},
+        onPressed: onPressed,
         child: Text(
-          "Sign Up",
+          buttonName,
           style: AppTextStyles.bodyMedium.copyWith(color: Colors.black),
         ),
       ),

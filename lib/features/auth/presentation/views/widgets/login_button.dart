@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:go_router/go_router.dart';
+import 'package:zimro/core/utils/app_router.dart';
 import 'package:zimro/core/utils/app_text_styles.dart';
 
 class LoginButton extends StatelessWidget {
@@ -16,7 +18,9 @@ class LoginButton extends StatelessWidget {
           ),
           side: BorderSide(width: 1, color: Colors.white),
         ),
-        onPressed: () {},
+        onPressed: () {
+          GoRouter.of(context).push(AppRouter.kLoginView);
+        },
         child: Text(
           'Log in',
           style: AppTextStyles.bodyMedium.copyWith(color: Colors.white),
