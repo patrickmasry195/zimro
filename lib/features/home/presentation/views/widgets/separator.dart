@@ -3,14 +3,14 @@ import 'package:iconly/iconly.dart';
 import 'package:zimro/core/utils/app_text_styles.dart';
 
 class Separator extends StatelessWidget {
-  const Separator({super.key});
-
+  const Separator({super.key, required this.preTextName});
+  final String preTextName;
   @override
   Widget build(BuildContext context) {
     return Row(
       mainAxisAlignment: MainAxisAlignment.spaceBetween,
       children: [
-        Text("All collection", style: AppTextStyles.subheadlineSemiBold),
+        Text(preTextName, style: AppTextStyles.subheadlineSemiBold),
         TextButton.icon(
           onPressed: () {},
           label: Text(

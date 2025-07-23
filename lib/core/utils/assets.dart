@@ -15,4 +15,10 @@ class AssetsData {
   static const collection3 = "assets/collection3.png";
   static const collection4 = "assets/collection4.png";
   static const collection5 = "assets/collection5.png";
+  static const newArrivals1 = "assets/new_arrivals1.png";
+  static const newArrivals2 = "assets/new_arrivals2.png";
+  static const newArrivals3 = "assets/new_arrivals3.png";
+  static const newArrivals4 = "assets/new_arrivals4.png";
+  static const newArrivals5 = "assets/new_arrivals5.png";
+  static const newArrivals6 = "assets/new_arrivals6.png";
 }
