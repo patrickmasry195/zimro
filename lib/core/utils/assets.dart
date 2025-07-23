@@ -1,3 +1,5 @@
+import 'package:zimro/features/product_details/presentation/views/product_details_view.dart';
+
 class AssetsData {
   static const splashBackground = "assets/backgrounds/splash_background.png";
   static const mainLogo = "assets/main_logos/logo2.png";
@@ -27,4 +29,5 @@ class AssetsData {
   static const product4 = "assets/product4.png";
   static const product5 = "assets/product5.png";
   static const product6 = "assets/product6.png";
+  static const productDetails = "assets/product_details.png";
 }

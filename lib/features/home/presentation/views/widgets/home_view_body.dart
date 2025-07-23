@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:go_router/go_router.dart';
+import 'package:zimro/core/utils/app_router.dart';
 import 'package:zimro/features/home/presentation/views/widgets/all_collection_listview.dart';
 import 'package:zimro/features/home/presentation/views/widgets/all_products_grid.dart';
 import 'package:zimro/features/home/presentation/views/widgets/banner_slider.dart';
@@ -31,9 +33,12 @@ class HomeViewBody extends StatelessWidget {
                   Categories(),
                   SizedBox(height: 24),
                   Separator(preTextName: 'All collection'),
-                  GestureDetector(onTap: () {
-                    
-                  }, child: AllCollectionListview()),
+                  GestureDetector(
+                    onTap: () {
+                      GoRouter.of(context).push(AppRouter.kProductDetailsView);
+                    },
+                    child: AllCollectionListview(),
+                  ),
                   SizedBox(height: 24),
                   Separator(preTextName: 'New arrivals'),
                   NewArrivalsCraousel(),
