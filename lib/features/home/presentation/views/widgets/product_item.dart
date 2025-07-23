@@ -8,11 +8,13 @@ class ProductItem extends StatelessWidget {
     required this.productImage,
     required this.productName,
     required this.productPrice,
+    required this.imageHeight,
   });
 
   final String productImage;
   final String productName;
   final String productPrice;
+  final double imageHeight;
 
   @override
   Widget build(BuildContext context) {
@@ -33,7 +35,7 @@ class ProductItem extends StatelessWidget {
                   borderRadius: BorderRadius.circular(12),
                   child: Image.asset(
                     productImage,
-                    height: 156,
+                    height: imageHeight,
                     width: double.infinity,
                     fit: BoxFit.cover,
                   ),

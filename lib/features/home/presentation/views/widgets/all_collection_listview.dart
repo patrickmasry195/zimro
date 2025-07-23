@@ -10,26 +10,31 @@ class AllCollectionListview extends StatelessWidget {
       productImage: AssetsData.collection1,
       productName: 'Green Long sleve\nshirt',
       productPrice: '\$25.00',
+      imageHeight: 156,
     ),
     ProductItem(
       productImage: AssetsData.collection2,
       productName: 'long sleve blouse',
       productPrice: '\$25.00',
+      imageHeight: 156,
     ),
     ProductItem(
       productImage: AssetsData.collection3,
       productName: 'Green Long sleve shirt',
       productPrice: '\$25.00',
+      imageHeight: 156,
     ),
     ProductItem(
       productImage: AssetsData.collection4,
       productName: 'Green Long sleve  ',
       productPrice: '\$25.00',
+      imageHeight: 156,
     ),
     ProductItem(
       productImage: AssetsData.collection5,
       productName: 'Green Long sleve ',
       productPrice: '\$25.00',
+      imageHeight: 156,
     ),
   ];
 

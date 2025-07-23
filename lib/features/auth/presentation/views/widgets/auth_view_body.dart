@@ -19,14 +19,17 @@ class AuthViewBody extends StatelessWidget {
             children: [
               AuthText(),
               SizedBox(height: 40),
-              CustomButton(
-                buttonName: "Sign Up",
-                onPressed: () {
-                  GoRouter.of(context).push(AppRouter.kSignUpView);
-                },
+              Align(
+                alignment: Alignment.center,
+                child: CustomButton(
+                  buttonName: "Sign Up",
+                  onPressed: () {
+                    GoRouter.of(context).push(AppRouter.kSignUpView);
+                  },
+                ),
               ),
               SizedBox(height: 16),
-              LoginButton(),
+              Align(alignment: Alignment.center, child: LoginButton()),
             ],
           ),
         ),
