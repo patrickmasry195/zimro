@@ -3,6 +3,10 @@
 This the UI I followed in the Application
 [Figma design](https://www.figma.com/design/wQv2q1btOzKA8UsSlWV6sh/zimro-fashion-store-UI-Kit--Community-?node-id=14-30)
 
+# Demo video
+[Demo video](https://drive.google.com/file/d/1wi2ePeosF2SjfnFTWCnIxLUWSNYEeZCT/view?usp=sharing)
+
+
 
 # Screenshots
 Native Splash             |  Flutter Splash
