@@ -1,16 +1,10 @@
-# zimro
+# Zimro Clothing App
 
-A new Flutter project.
+This the UI I followed in the Application
+[Figma design](https://www.figma.com/design/wQv2q1btOzKA8UsSlWV6sh/zimro-fashion-store-UI-Kit--Community-?node-id=14-30)
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+# Screenshots
+Splash             |  Testaments
+:-------------------------:|:-------------------------:
+![](https://github.com/user-attachments/assets/198570f8-7844-480f-b94c-977f452d484b)  |  ![](https://github.com/user-attachments/assets/39f848b2-18d6-47a2-8189-0fecb8dfe21d)
