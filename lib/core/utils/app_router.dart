@@ -1,5 +1,6 @@
 import 'package:go_router/go_router.dart';
 import 'package:zimro/features/auth/presentation/views/auth_view.dart';
+import 'package:zimro/features/home/presentation/views/home_view.dart';
 import 'package:zimro/features/login/presentation/views/login_view.dart';
 import 'package:zimro/features/signup/presentation/views/signup_view.dart';
 import 'package:zimro/features/signup/presentation/views/widgets/confirm_email.dart';
@@ -10,6 +11,7 @@ abstract class AppRouter {
   static const kSignUpView = '/signup_view';
   static const kLoginView = '/login_view';
   static const kConfirmEmail = '/confirm_email';
+  static const kHomeView = '/home_view';
 
   static final router = GoRouter(
     routes: [
@@ -18,6 +20,7 @@ abstract class AppRouter {
       GoRoute(path: kSignUpView, builder: (context, state) => SignupView()),
       GoRoute(path: kLoginView, builder: (context, state) => LoginView()),
       GoRoute(path: kConfirmEmail, builder: (context, state) => ConfirmEmail()),
+      GoRoute(path: kHomeView, builder: (context, state) => HomeView()),
     ],
   );
 }

@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:go_router/go_router.dart';
+import 'package:zimro/core/utils/app_router.dart';
 import 'package:zimro/core/utils/app_text_styles.dart';
 import 'package:zimro/core/utils/assets.dart';
 import 'package:zimro/core/widgets/custom_button.dart';
@@ -43,7 +45,9 @@ class LoginViewBody extends StatelessWidget {
                     width: 343,
                     child: CustomButton(
                       buttonName: 'Continue with email',
-                      onPressed: () {},
+                      onPressed: () {
+                        GoRouter.of(context).push(AppRouter.kHomeView);
+                      },
                     ),
                   ),
                 ],
