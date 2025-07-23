@@ -1,6 +1,6 @@
 # Zimro Clothing App
 
-This the UI I followed in the Application
+This is the UI I followed in the Application
 [Figma design](https://www.figma.com/design/wQv2q1btOzKA8UsSlWV6sh/zimro-fashion-store-UI-Kit--Community-?node-id=14-30)
 
 # Demo video
