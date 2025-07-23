@@ -1,5 +1,3 @@
-import 'package:zimro/features/product_details/presentation/views/product_details_view.dart';
-
 class AssetsData {
   static const splashBackground = "assets/backgrounds/splash_background.png";
   static const mainLogo = "assets/main_logos/logo2.png";
